@@ -1,7 +1,7 @@
 # PfDA_Project1 #
 Programming for Data Analytics - Project 1 repository
 
-This repository contains the data (csv file) and jupyter notebook relating to my Programming for Data Analytics project 1.
+This repository contains the data (csv file) and jupyter notebook relating to my Programming for Data Analytics (PfDA) project 1.
 
 ### Problem Statement ###
 
@@ -23,3 +23,14 @@ students may already have some real-world data sets in their own files. It is ok
 base your synthesised data set on these should you wish (please reference it if you do),
 but the main task in this project is to create a synthesised data set. The next section
 gives an example project idea.
+
+### Contents of this Repository ###
+
+This repository contains all of the files pertaining to the PfDA project including
+ - Data Folder - Containing a csv of data sourced from kaggle relating to performance of tweets in terms of social engagement
+ - This Readme file - Containing general information about the project
+ - A jupyter notebook containing the project work and steps.
+
+### Accessing the Repository ###
+
+The repository has been set up with public access to allow users to easily download the repository.
