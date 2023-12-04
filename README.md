@@ -72,4 +72,27 @@ Out of interest, I then calculated the mean and standard deviation of each varia
 
 #### Variable Relationship ####
 
+Next I generated summary tables showing the covariance and correlation between the data sets. The data was suprisingly poorly correlated. Next I generated sub plots of each of the variables, which again confirmed there was no signifincat linear relationship between teh variables.
 
+#### Simulated Data ####
+
+Next I began simulating data. I began by further analysing the data variable independntly, the Like count variable had a signifncant number of outliers as visualised by the histogram and box plot charts. In order to remove outliers, I used the Z scoer method and trimmed the vaues outside 3 standard deviations from the mean from the data set. Th resulting histogram appeared the match an expinential distrobution. I then used numpy.random.expontential to synthesize the data.
+
+Clout and tweet length were both very difficult the fit to a distribution, as such I relied on np.random.choice, and fed the relevant variable into the dataset and generated 1000 values for each variable. This was confirmed to be appropriate as the mean of the origirnal and simulated data are comparable.
+
+Day of the week followed a uniform distribution so np.random.uniform was used to simulate data. 
+
+
+### References ###
+
+Mendley Data Set: https://data.mendeley.com/datasets/bfk3hvdcnt/1
+
+Kaggle data set source: https://www.kaggle.com/datasets/jocelyndumlao/dmo-social-media-engagement-dataset
+
+Determining factors that drive twitter engagement rates: https://journals.scholarpublishing.org/index.php/ABR/article/download/2700/1677#:~:text=These%20variables%20includes%20the%20day,the%20tweet%20among%20other%20variables.
+
+Investigating Outliers: https://www.youtube.com/watch?v=Cw2IvmWRcXs
+
+Statistics by Jom: https://statisticsbyjim.com/probability/exponential-distribution/
+
+Identifying data distributions: https://medium.com/the-researchers-guide/finding-the-best-distribution-that-fits-your-data-using-pythons-fitter-library-319a5a0972e9
