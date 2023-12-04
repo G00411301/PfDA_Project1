@@ -52,3 +52,24 @@ The Jupyter notebook is structured as follows:
 
 #### Prepare Real Data Set for Analysis ####
 
+The first step in the project was to analyse the real world data in order to understand its characteristics and disctribution. I began by importing the data from the CSV file stored in the Data directory.
+
+Next I made any transformations I deemed necessary such as converting the string day values to integers and assigning a number to each day (0-6) represented Monday to Sunday.
+
+The number of characters in tweet lenght was counted and stored as a varaible using the function len().
+
+A numerical value was added to represent the media type that was associated with each tweet (this value was dropped from the analysis)
+
+#### Real Data Analysis ####
+
+Next we began analysing the real data. I began with a Seaborn pairplot to visualise each of the variables with referece to one another.
+
+This was followed by a Histogram of each of the most important variables associated with the phenomenon of tweet likes.
+
+The Histograms initially indicated that there were a number of out liers in the like count variable that must be cleaned up later.
+
+Out of interest, I then calculated the mean and standard deviation of each variable by state (not fully relevant to the project as geographical distribution was not a key variable in this analysis but interesting to observe and could potentially indicate location popularity whihc could have an impact on like count - again, not explored in this project)
+
+#### Variable Relationship ####
+
+
